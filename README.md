@@ -97,7 +97,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
     - Boxes
 
       - Adiciona novos boxes
-      - Lista todos os dados e arquivos de um box
+      - Busca todos os dados de um box
 
     - Arquivos
 
