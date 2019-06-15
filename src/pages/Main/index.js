@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-
 import { View, Text, Image, TextInput, TouchableOpacity } from "react-native";
+import AsyncStorage from "@react-native-community/async-storage";
 
 import api from "../../services/api";
 
@@ -13,10 +13,20 @@ export default class Main extends Component {
     newBox: ""
   };
 
+  async componentDidMount() {
+    const box = await AsyncStorage.getItem("@RocketBox:box");
+
+    if (box) {
+      this.props.navigation.navigate("Box");
+    }
+  }
+
   handleSignIn = async () => {
     const response = await api.post("boxes", {
       title: this.state.newBox
     });
+
+    await AsyncStorage.setItem("@RocketBox:box", response.data._id);
 
     this.props.navigation.navigate("Box");
   };
