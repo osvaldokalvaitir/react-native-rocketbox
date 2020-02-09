@@ -38,12 +38,12 @@ Aplicação RocketBox usando React Native, Axios, React Navigation, Socket.io, R
 
 ### Principal
 
-![Main](/assets/main.png)
+![Main](/.github/assets/main.png)
 Nesta primeira tela é possível criar um novo box.
 
 ### Box
 
-![Box](/assets/box.png)
+![Box](/.github/assets/box.png)
 É a tela onde estão todos os arquivos vindos da API referentes ao box criado, podendo adicionar novos arquivos (somente imagens), clicando no botão inferior direito e localizando a imagem na galeria.
 
 ## Desenvolvimento
