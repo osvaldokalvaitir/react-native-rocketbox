@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação RocketBox usando React Native, Axios, React Navigation, Socket.io, React Native Vector Icons, react-native-iphone-x-helper, React Native Async Storage, React Native Image Picker, react-native-fs, react-native-file-viewer e date-fns consumindo os recursos da API do [Node - RocketBox](https://github.com/osvaldokalvaitir/node-rocketbox).
+Aplicação RocketBox usando React Native, Axios, React Navigation, Socket.io, React Native Vector Icons, react-native-iphone-x-helper, React Native Async Storage, React Native Image Picker, react-native-fs, react-native-file-viewer e date-fns consumindo os recursos da API do [Node.js - RocketBox](https://github.com/osvaldokalvaitir/nodejs-rocketbox).
 
 ## Índice
 
@@ -90,7 +90,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### APIs
 
-- **[Node - RocketBox](https://github.com/osvaldokalvaitir/node-rocketbox)**
+- **[Node.js - RocketBox](https://github.com/osvaldokalvaitir/nodejs-rocketbox)**
 
   - **Rotas**
 
