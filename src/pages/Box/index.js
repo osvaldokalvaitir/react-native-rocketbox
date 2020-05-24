@@ -29,7 +29,7 @@ export default class Box extends Component {
   }
 
   subscribeToNewFiles = box => {
-    const io = socket("https://node-rocketbox.herokuapp.com");
+    const io = socket("https://nodejs-rocketbox.herokuapp.com");
 
     io.emit("connectRoom", box);
 
