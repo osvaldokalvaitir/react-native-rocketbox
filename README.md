@@ -1,104 +1,66 @@
-# React Native - RocketBox
+<h1 align="center">
+    <img src="/.github/assets/logo.svg"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-rocketbox/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-rocketbox.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-rocketbox.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-rocketbox.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-rocketbox.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-rocketbox.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-rocketbox.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  React Native - RocketBox
+</h3>
 
-Aplicação RocketBox usando React Native, Axios, React Navigation, Socket.io, React Native Vector Icons, react-native-iphone-x-helper, React Native Async Storage, React Native Image Picker, react-native-fs, react-native-file-viewer e date-fns consumindo os recursos da API do [Node.js - RocketBox](https://github.com/osvaldokalvaitir/nodejs-rocketbox).
+<p align="center">
+  :package: RocketBox Application using React Native, Axios, React Navigation, Socket.io, React Native Vector Icons, react-native-iphone-x-helper, React Native Async Storage, React Native Image Picker, react-native-fs, react-native-file-viewer, date-fns and consuming the features of the Node.js - RocketBox API
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-rocketbox.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-rocketbox.svg?color=00A83A">
 
-  - [Principal](#principal)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Box](#box)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+## :iphone: Demo
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+![Demo](/.github/assets/demo.gif)
 
-  - [Execução do Projeto](#execução-do-projeto)
+## :wrench: Install and run
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+_ps: Before running the app, start the [Node.js - RocketBox](https://github.com/osvaldokalvaitir/nodejs-rocketbox) backend._
 
-  - [Bibliotecas](#bibliotecas)
+Open terminal:
 
-  - [APIs](#apis)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-rocketbox
 
-## Capturas de Tela
+# Entry in folder
+cd react-native-rocketbox
 
-### Principal
+# Install deps with npm or yarn
+npm install | yarn
 
-![Main](/.github/assets/main.png)
-Nesta primeira tela é possível criar um novo box.
+# Launch the app on android with react-native or yarn
+react-native run-android | yarn android
 
-### Box
+# Launch the app on ios with react-native or yarn
+react-native run-ios | yarn ios
+```
 
-![Box](/.github/assets/box.png)
-É a tela onde estão todos os arquivos vindos da API referentes ao box criado, podendo adicionar novos arquivos (somente imagens), clicando no botão inferior direito e localizando a imagem na galeria.
+## :memo: License
 
-## Desenvolvimento
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-### Configuração do Ambiente
+---
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto para Desenvolvimento`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [date-fns](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/date-fns.md)
-
-- [React Native Async Storage](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-native-community-async-storage.md)
-
-- [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
-
-- [React Native Image Picker](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-image-picker.md)
-
-- [React Native Vector Icons](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-vector-icons.md)
-
-- [React Navigation](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-navigation.md)
-
-- [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
-
-- [react-native-file-viewer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-file-viewer.md)
-
-- [react-native-fs](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-fs.md)
-
-- [react-native-iphone-x-helper](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-iphone-x-helper.md)
-
-- [socket.io-client](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/socketio-client.md)
-
-### APIs
-
-- **[Node.js - RocketBox](https://github.com/osvaldokalvaitir/nodejs-rocketbox)**
-
-  - **Rotas**
-
-    - Boxes
-
-      - Adiciona novos boxes
-      - Busca todos os dados de um box
-
-    - Arquivos
-
-      - Adiciona novos arquivos para um box
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
